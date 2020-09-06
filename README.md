@@ -16,7 +16,7 @@ Use ASCII characters only
 You can add spaces and/or dots to skip notes
 
 Values in scale array are set of notes used by your sequence
-0 = C, 1 = C#, 2 = D, etc
+0 = C0, 1 = C#0, 2 = D0, etc
 
 Transpose value offsets all notes in scale array
 
