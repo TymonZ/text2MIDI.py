@@ -22,4 +22,5 @@ Values in scale array are set of notes used by your sequence
 Transpose value offsets all notes in scale array
 
 Have fun ( ^-^)/
+
 Pxltr, 2020
