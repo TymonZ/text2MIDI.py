@@ -6,9 +6,10 @@ I recommend sending MIDI to other programs via loopMIDI virtual cable
 https://www.tobias-erichsen.de/software/loopmidi.html
 
 You can check your port names by writing text below in your python console:
+```
 >>> import mido
 >>> mido.get_output_names()
-
+```
 SEQUENCER:
 
 Use ASCII characters only
