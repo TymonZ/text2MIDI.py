@@ -1,4 +1,4 @@
-MIDI:
+## MIDI:
 
 Choose portname from your port list (printAllPortNames = True).
 If you don't have any physical instruments and MIDI interface,
@@ -10,16 +10,15 @@ You can check your port names by writing text below in your python console:
 >>> import mido
 >>> mido.get_output_names()
 ```
-SEQUENCER:
+## SEQUENCER:
 
-Use ASCII characters only
+* Use ASCII characters only
 
-You can add spaces and/or dots to skip notes
+* You can add spaces and/or dots to skip notes
 
-Values in scale array are set of notes used by your sequence
-0 = C0, 1 = C#0, 2 = D0, etc
+* Values in scale array are set of notes used by your sequence: `0 = C0`, `1 = C#0`, `2 = D0`, etc.
 
-Transpose value offsets all notes in scale array
+* Transpose value offsets all notes in scale array
 
 Have fun ( ^-^)/
 
